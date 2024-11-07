@@ -12,6 +12,6 @@ class MainController extends AbstractController
     #[Route('/', name: 'app_main')]
     public function index()
     {
-        return New Response('Hello Symfony World!');
+        return New Response("Gute Nacht chèrie, schlaf gut. Je t'aime");
     }
 }
